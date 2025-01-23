@@ -1,4 +1,4 @@
-``Yo, im just a 13 yr old computer geek coding on github
+Yo, im just a 13 yr old computer geek coding on github
 
 <!---
 uptownzombi21/uptownzombi21 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
