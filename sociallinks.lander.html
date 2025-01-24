@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caleb Z's Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="resource/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="resource/cursor.css" rel="stylesheet">
+  <link href="resource/searchdropdown.css" rel="stylesheet">
+</head>
+
+
+  <body>
+
+    <div class="p-3 mb-2 bg-primary-subtle text-info-emphasis d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Left Side: "CZ" and Button Group -->
+        <div class="d-flex align-items-center">
+          <!-- "CZ" Text -->
+          <p class="h2 mb-0 me-3">CZ</p>
+
+          <!-- Button Group -->
+          <div class="btn-group">
+            <a href="https://uptownzombi21.github.io/site/#" class="btn btn-outline-info" aria-current="page">Home</a>
+            <a href="aboutme.html" class="btn btn-outline-info">About Me</a>
+            <a href="#" class="btn btn-outline-info active">Social</a>
+            <!-- Dropdown Menu -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-outline-info">Files</button>
+              <button type="button" class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://uptownzombi21.github.io/site/youareanidiot.html">Settings</a></li>
+                <li><a class="dropdown-item" href="#">aaaa</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Search Bar -->
+        <div class="search-container">
+          <!-- Search Bar aligned with Button -->
+          <input class="form-control me-2" type="search" id="searchInput" placeholder="Search" aria-label="Search" onkeyup="performSearch()">
+          <button class="btn btn-outline-info" type="submit">Search</button>
+
+          <!-- Dynamic Search Dropdown -->
+          <div class="search-dropdown" id="searchDropdown"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h1>Social Links</h1>
+
+      <br><br>
+      <div class="container">
+        <div class="d-flex flex-wrap gap-3"> <!-- Added flex-wrap for responsive wrapping -->
+          <!-- Card 1 -->
+          <div class="card" style="width: 18rem;">
+            <img src="resource/spotify_dark_macos_bigsur_icon_189701.png" class="card-img-top" alt="Spotify Logo" />
+            <div class="card-body text-center"> <!-- Added text-center for alignment -->
+              <h5 class="card-title">Spotify</h5>
+              <p class="card-text">Best Music App</p>
+              <a href="https://open.spotify.com/user/31hzzkslrgkmyanbdbdhxnmptmdu?si=6e4eb0a4022f4b20" class="btn btn-info">View My Profile</a>
+              <br><br>
+              <a href="spotify.html" class="btn btn-secondary">Or Listen on this site</a>
+            </div>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="card" style="width: 18rem;">
+            <img src="resource/instagram_macos_bigsur_icon_190067.png" class="card-img-top" alt="Instagram Logo" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Instagram</h5>
+              <p class="card-text">Modern Social Media</p>
+              <a href="#" class="btn btn-info">View My Profile</a>
+            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="card" style="width: 18rem;">
+            <img src="resource/discord_macos_bigsur_icon_190238.png" class="card-img-top" alt="Discord Logo" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Discord</h5>
+              <p class="card-text">Modern Social Media</p>
+              <p><strong>Username:</strong> uptownzombie21</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+
+
+
+    </div>
+
+
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px; bottom: 0; width: 100%;">
+      <p>&copy; 2024 Caleb Z. All rights not reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <link href="resource/accordianwidth.css" rel="stylesheet">
+
+
+    <link href="resource/footer02.css" rel="stylesheet">
+
+
+    <script src="resource/searchdropdown.js"></script>
+
+
+    <script src="resource/bootstrap.bundle.js"></script>
+
+  </body>
+</html>

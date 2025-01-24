@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caleb Z's Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="resource/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="resource/cursor.css" rel="stylesheet">
+    <link href="resource/searchdropdown.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="p-3 mb-2 bg-primary-subtle text-info-emphasis d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <!-- Left Side: "CZ" and Button Group -->
+        <div class="d-flex align-items-center">
+          <!-- "CZ" Text -->
+          <p class="h2 mb-0 me-3">CZ</p>
+
+          <!-- Button Group -->
+          <div class="btn-group">
+            <a href="https://uptownzombi21.github.io/site/#" class="btn btn-outline-info" aria-current="page">Home</a>
+            <a href="aboutme.html" class="btn btn-outline-info">About Me</a>
+            <a href="#" class="btn btn-outline-info active">Social</a>
+            <!-- Dropdown Menu -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-outline-info">Files</button>
+              <button type="button" class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://uptownzombi21.github.io/site/youareanidiot.html">Settings</a></li>
+                <li><a class="dropdown-item" href="#">aaaa</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Side: Search Bar -->
+        <div class="search-container">
+          <!-- Search Bar aligned with Button -->
+          <input class="form-control me-2" type="search" id="searchInput" placeholder="Search" aria-label="Search" onkeyup="performSearch()">
+          <button class="btn btn-outline-info" type="submit">Search</button>
+
+          <!-- Dynamic Search Dropdown -->
+          <div class="search-dropdown" id="searchDropdown"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5">
+      <!-- Main content goes here -->
+
+      <h1>My Fav Songs<h1>
+
+        <br>
+        <!---Hang Up-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/425807781&color=%230534f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/monstercat" title="Monstercat" target="_blank" style="color: #cccccc; text-decoration: none;">Monstercat</a> · <a href="https://soundcloud.com/monstercat/wrld-hang-up" title="WRLD - Hang Up (feat. Savoi)" target="_blank" style="color: #cccccc; text-decoration: none;">WRLD - Hang Up (feat. Savoi)</a></div>
+      <br>
+      <!---Way Back Home-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/867624937&color=%230534f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/spinninrecords" title="Spinnin&#x27; Records" target="_blank" style="color: #cccccc; text-decoration: none;">Spinnin&#x27; Records</a> · <a href="https://soundcloud.com/spinninrecords/shaun-way-back-home-feat-conor-maynard-sam-feldt-festival-mix-out-now" title="SHAUN - Way Back Home (feat. Conor Maynard) [Sam Feldt Festival Mix] [OUT NOW]" target="_blank" style="color: #cccccc; text-decoration: none;">SHAUN - Way Back Home (feat. Conor Maynard) [Sam Feldt Festival Mix] [OUT NOW]</a></div>
+      <br>
+      <!---Viva La Vida-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/255770309&color=%230534f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida
+      Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/coldplay" title="coldplayofficial" target="_blank" style=z"color: #cccccc; text-decoration: none;">coldplayofficial</a> · <a href="https://soundcloud.com/coldplay/viva-la-vida" title="Viva La Vida" target="_blank" style="color: #cccccc; text-decoration: none;">Viva La Vida</a></div>
+      <br>
+      <!---between Worlds-GP7-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1794566956&color=%230534f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dirk-283612873" title="Dırk" target="_blank" style="color: #cccccc; text-decoration: none;">Dırk</a> · <a href="https://soundcloud.com/dirk-283612873/between-worlds" title="Between Worlds" target="_blank" style="color: #cccccc; text-decoration: none;">Between Worlds from GP7 Music Competition</a></div>
+      <br>
+      <!---Magib By Murad-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/550759608&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mur4dmusic" title="Mur4d" target="_blank" style="color: #cccccc; text-decoration: none;">Mur4d</a> · <a href="https://soundcloud.com/mur4dmusic/murad-magic" title="MuraD - Magic" target="_blank" style="color: #cccccc; text-decoration: none;">MuraD - Magic</a></div>
+      <br>
+      <!--Color-GRANT-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/615216477&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/monstercat" title="Monstercat" target="_blank" style="color: #cccccc; text-decoration: none;">Monstercat</a> · <a href="https://soundcloud.com/monstercat/grant-color-feat-juneau" title="Grant - Color (feat. Juneau)" target="_blank" style="color: #cccccc; text-decoration: none;">Grant - Color (feat. Juneau)</a></div>
+      <br>
+      <!---Play it cool-terry Zhong-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/718503076&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/monstercat" title="Monstercat" target="_blank" style="color: #cccccc; text-decoration: none;">Monstercat</a> · <a href="https://soundcloud.com/monstercat/terry-zhong-play-it-cool-feat-conro" title="Terry Zhong - Play It Cool (feat. Conro)" target="_blank" style="color: #cccccc; text-decoration: none;">Terry Zhong - Play It Cool (feat. Conro)</a></div>
+      <br>
+      <!---A Sky Full of stars-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/255770536&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/coldplay" title="coldplayofficial" target="_blank" style="color: #cccccc; text-decoration: none;">coldplayofficial</a> · <a href="https://soundcloud.com/coldplay/a-sky-full-of-stars" title="A Sky Full of Stars" target="_blank" style="color: #cccccc; text-decoration: none;">A Sky Full of Stars</a></div>
+      <br>
+      <!---Play ot cool-Monsta X-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/576069180&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/steveaoki" title="Steve Aoki" target="_blank" style="color: #cccccc; text-decoration: none;">Steve Aoki</a> · <a href="https://soundcloud.com/steveaoki/play-it-cool-feat-monsta-x" title="Steve Aoki &amp; Monsta X - Play It Cool" target="_blank" style="color: #cccccc; text-decoration: none;">Steve Aoki &amp; Monsta X - Play It Cool</a></div>
+      <br>
+      <!--- Gravity Zero-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/593423178&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/catiso" title="Catiso" target="_blank" style="color: #cccccc; text-decoration: none;">Catiso</a> · <a href="https://soundcloud.com/catiso/gravity-zero" title="Gravity Zero" target="_blank" style="color: #cccccc; text-decoration: none;">Gravity Zero</a></div>
+      <br>
+      <!--Oblivion-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306150926&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/altimo" title="Altimo" target="_blank" style="color: #cccccc; text-decoration: none;">Altimo</a> · <a href="https://soundcloud.com/altimo/cody-sorenson-altimo-oblivion" title="Oblivion" target="_blank" style="color: #cccccc; text-decoration: none;">Oblivion</a></div>
+      <BR>
+      <!---rEVOLUTION-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/257604657&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kingstepmusic" title="King Step" target="_blank" style="color: #cccccc; text-decoration: none;">King Step</a> · <a href="https://soundcloud.com/kingstepmusic/ahxello-revloution-king-step" title="Ahxello - Revolution [King Step]" target="_blank" style="color: #cccccc; text-decoration: none;">Ahxello - Revolution [King Step]</a></div>
+      <br>
+      <!---CREEPER AWWWW-->
+      <br>
+      <!---Epic Minecraft Song >:D-->
+      <iframe width="70%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/239354638&color=%23050ede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/eugene-w-parker" title="Super Gojay" target="_blank" style="color: #cccccc; text-decoration: none;">Super Gojay</a> · <a href="https://soundcloud.com/eugene-w-parker/minecraft-songs-revenge-captain-sparklez" title="Minecraft Songs- Revenge- Captain Sparklez" target="_blank" style="color: #cccccc; text-decoration: none;">Minecraft Songs- Revenge- Captain Sparklez</a></div>
+      <br>
+
+
+
+
+    </div>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px; position: relative; width: 100%;">
+    <p>&copy; 2024 Caleb Z. All rights not reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <link href="resource/accordianwidth.css" rel="stylesheet">
+
+
+    <link href="resource/footer02.css" rel="stylesheet">
+
+
+    <script src="resource/searchdropdown.js"></script>
+
+    <!---bootstrap js-->
+    <script src="resource/bootstrap.bundle.js"></script>
+  </body>
+</html>
