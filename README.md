@@ -8,7 +8,7 @@ Yo, im just a 13 yr old computer geek coding on github
 <br>
 
 
-my fav song [HERERERERERERE](https://open.spotify.com/track/7F5ZKq7vJsndCBXemAGu0r?si=023184e3b1764461)
+my fav song [HERERERERERERE](https://open.spotify.com/track/0hTx4cANgZsRycatvuGYsV?si=69d4052397764bd7)
 
 <!---
 uptownzombi21/uptownzombi21 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
