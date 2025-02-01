@@ -12,3 +12,4 @@ Yo, im just a 13 yr old computer geek coding on github
 
 my fav song [HERERERERERERE](https://open.spotify.com/track/0hTx4cANgZsRycatvuGYsV?si=69d4052397764bd7)
 
+rmbr to join [my teams community](https://teams.live.com/l/community/FEAWBNV_TE5KZrsO8g)
