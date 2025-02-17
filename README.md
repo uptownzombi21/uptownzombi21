@@ -1,4 +1,4 @@
-Yo, im just a 13 yr old computer geek coding on github
+Yo, im just a computer geek coding on github
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![status](https://api.statusbadges.me/badge/status/1162211036380811296?simple=true)   [![spotify](https://api.statusbadges.me/badge/spotify/1162211036380811296)](https://api.statusbadges.me/openspotify/1162211036380811296)   ![](https://komarev.com/ghpvc/?username=uptownzombi21&color=blueviolet)
 
