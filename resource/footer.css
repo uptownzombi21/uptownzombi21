@@ -1,0 +1,13 @@
+  body {
+        min-height: 100vh; /* Ensure body takes at least the full viewport height */
+        display: flex;
+        flex-direction: column; /* Make the body a column to stack header, content, and footer */
+      }
+
+      .container {
+        flex: 1; /* Let the container take up remaining space between header and footer */
+      }
+
+      footer {
+        margin-top: auto; /* Push footer to the bottom of the page when there's little content */
+      }

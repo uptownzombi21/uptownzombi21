@@ -1,0 +1,44 @@
+      /* Custom Styles for the Search Dropdown */
+      .search-dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        border: 1px solid #333; /* Darker border */
+        background-color: #333; /* Dark background */
+        color: white; /* Light text color */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow */
+        max-height: 300px;
+        overflow-y: auto;
+        display: none;
+      }
+
+      .search-dropdown.show {
+        display: block;
+      }
+
+      .search-dropdown a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: white; /* Light text color for links */
+      }
+
+      .search-dropdown a:hover {
+        background-color: #555; /* Darker hover background */
+      }
+
+      /* Align search input and button */
+      .search-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+
+      .search-container .form-control {
+        width: 250px; /* Adjust width of the search bar */
+      }
+
+      .search-container .btn {
+        margin-left: -1px; /* Align button next to the search bar */
+      }

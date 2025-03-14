@@ -1,0 +1,22 @@
+/* Ensure the body spans the full viewport */
+body {
+  min-height: 100vh; /* Ensure body takes at least the full viewport height */
+  display: flex; /* Enable flexbox for alignment */
+  flex-direction: column; /* Stack header, main content, and footer vertically */
+}
+
+/* Main container takes up remaining space */
+.container {
+  flex: 1; /* Stretch the content area to fill space between header and footer */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Dark background for contrast */
+  color: white; /* Light text color for readability */
+  text-align: center; /* Center-align footer content */
+  padding: 10px 0; /* Add vertical padding */
+  margin-top: auto; /* Push footer to the bottom of the viewport when content is short */
+  font-size: 0.9rem; /* Set a consistent font size */
+  width: 100%; /* Ensure it spans the full width of the viewport */
+}
