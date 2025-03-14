@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caleb Z's Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="../../src/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="../../src/cursor.css" rel="stylesheet">
+    <link href="../../src/searchdropdown.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="p-3 mb-2 bg-primary-subtle text-info-emphasis d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <!-- Left Side: "CZ" and Button Group -->
+        <div class="d-flex align-items-center">
+          <!-- "CZ" Text -->
+          <p class="h2 mb-0 me-3">CZ</p>
+
+          <!-- Button Group -->
+          <div class="btn-group">
+            <a href="https://uptownzombie21.rf.gd/?i=1#" class="btn btn-outline-info" aria-current="page">Home</a>
+            <a href="../../About Me" class="btn btn-outline-info">About Me</a>
+            <a href="#" class="btn btn-outline-info active">Social</a>
+            <!-- Dropdown Menu -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-outline-info">Files</button>
+              <button type="button" class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../LOL">Settings</a></li>
+                <li><a class="dropdown-item" href="#">aaaa</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Side: Search Bar -->
+        <div class="search-container">
+          <!-- Search Bar aligned with Button -->
+          <input class="form-control me-2" type="search" id="searchInput" placeholder="Search" aria-label="Search" onkeyup="performSearch()">
+          <button class="btn btn-outline-info" type="submit">Search</button>
+
+          <!-- Dynamic Search Dropdown -->
+          <div class="search-dropdown" id="searchDropdown"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <!-- Main content goes here -->
+      <h1>My Favorite Songs</h1>
+
+      <p>COMING SOON XD</p>
+    </div>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px; position: relative; width: 100%;">
+    <p>© 2024 Caleb Z. All rights not reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <link href="../../src/accordianwidth.css" rel="stylesheet">
+    <link href="../../src/footer02.css" rel="stylesheet">
+    <script src="../../src/searchdropdown.js"></script>
+    <script src="../../src/bootstrap.bundle.js"></script>
+  </body>
+</html>

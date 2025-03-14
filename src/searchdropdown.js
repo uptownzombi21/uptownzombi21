@@ -1,4 +1,4 @@
-// Sample search data with corresponding URLs
+
         const items = [
             { name: "About Me", url: "#" },
             { name: "Dev", url: "#" },
@@ -9,12 +9,10 @@
             { name: "Why is this full of scams", url: "#" }
         ];
 
-        // Search function
         function performSearch() {
             const query = document.getElementById("searchInput").value.toLowerCase();
             const searchDropdown = document.getElementById("searchDropdown");
-            searchDropdown.innerHTML = ""; // Clear previous results
-
+            searchDropdown.innerHTML = "";
             if (query.length === 0) {
                 searchDropdown.classList.remove("show");
                 return;
@@ -25,9 +23,9 @@
                 searchDropdown.classList.add("show");
                 filteredItems.forEach(item => {
                     const link = document.createElement("a");
-                    link.href = item.url; // Set URL
+                    link.href = item.url;
                     link.textContent = item.name;
-                    link.target = "_blank"; // Open in a new tab (optional)
+                    link.target = "_blank";
                     link.onclick = function() {
                         searchDropdown.classList.remove("show");
                     };
@@ -38,14 +36,14 @@
             }
         }
 
-      // Close dropdown if clicked outside
+
       document.addEventListener("click", function(event) {
         if (!event.target.closest(".search-container")) {
           document.getElementById("searchDropdown").classList.remove("show");
         }
       });
 
-      // Email validation function
+    
       function validateEmail() {
         const input = document.getElementById('floatingInput');
         const label = input.nextElementSibling;

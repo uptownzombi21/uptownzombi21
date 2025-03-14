@@ -1,0 +1,42 @@
+.search-dropdown {
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+border: 1px solid #333;
+background-color: #333;
+color: white;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+max-height: 300px;
+overflow-y: auto;
+display: none;
+}
+
+.search-dropdown.show {
+display: block;
+}
+
+.search-dropdown a {
+display: block;
+padding: 10px;
+text-decoration: none;
+color: white;
+}
+
+.search-dropdown a:hover {
+background-color: #555;
+}
+
+.search-container {
+position: relative;
+display: flex;
+align-items: center;
+}
+
+.search-container .form-control {
+width: 250px;
+}
+
+.search-container .btn {
+margin-left: -1px;
+}
